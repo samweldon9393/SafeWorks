@@ -29,4 +29,4 @@ new_df = pd.DataFrame(new_col)
 df['address'] = new_df[0]
 df['address note'] = new_df[1]
 
-print(df.head())
+df.to_csv('providers_2.csv')
