@@ -28,6 +28,7 @@ def split_days(string):
     while i < len(split):
         queue = []
         times = []
+        print(split[i])
         while split[i] in days:
             queue.append(split[i])
             i += 1
@@ -40,7 +41,7 @@ def split_days(string):
                 times.append(int(split[i + 2]) + 12)
             else:
                 times.append(int(split[i + 2]))
-            i += 4
+            i += 3
         for day in queue:
             hours[days[day]] = times.copy()
         i += 1
@@ -53,7 +54,6 @@ def split_days(string):
 
 #hours = df['hours']
 
-test = "Mon, Wed, Fri 1 pm 4 pm"
-#; Tue 9 am 4 pm; Thu 1 pm 6 pm"
+test = "Mon, Wed, Fri 1 pm 4 pm; Tue 9 am 4 pm; Thu 1 pm 6 pm"
 print(split_days(test))
 
