@@ -1,0 +1,2341 @@
+[
+    {
+        "id": 0,
+        "name": "ACR Health, Inc.",
+        "address": "135 Franklin, Watertown",
+        "phone": "(315) 475-2430",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                9,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                10,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 1,
+        "name": "ACR Health, Inc.",
+        "address": "287 Genesee St, Utica",
+        "phone": "(315) 475-2430",
+        "hours": {
+            "Monday": [
+                9,
+                16
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                9,
+                16
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 2,
+        "name": "ACR Health, Inc.",
+        "address": "627 W Genesee St, Syracuse",
+        "phone": "(315) 475-2430",
+        "hours": {
+            "Monday": [
+                9,
+                16
+            ],
+            "Tuesday": null,
+            "Wednesday": [
+                9,
+                16
+            ],
+            "Thursday": null,
+            "Friday": [
+                10,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 3,
+        "name": "ACR Health, Inc.",
+        "address": "Dudley and Fitch , Syracuse",
+        "phone": "(315) 475-2430",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                13,
+                16
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 4,
+        "name": "ACR Health, Inc.",
+        "address": "Oswego: Various locations",
+        "phone": "(315) 475-2430",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                10,
+                15
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 5,
+        "name": "Addiction Center of Broome County",
+        "address": "Addiction Center of Broome Cty, Binghamton",
+        "phone": "(607) 723-7308",
+        "hours": {
+            "Monday": [
+                800,
+                1600
+            ],
+            "Tuesday": [
+                800,
+                1600
+            ],
+            "Wednesday": [
+                800,
+                1600
+            ],
+            "Thursday": [
+                800,
+                1600
+            ],
+            "Friday": [
+                800,
+                1600
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 6,
+        "name": "AIDS Center of Queens County, Inc.",
+        "address": "42nd Road between 27th St and Crescent St, Long Island City",
+        "phone": "(917) 670-5687",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                16,
+                20
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 7,
+        "name": "AIDS Center of Queens County, Inc.",
+        "address": "62-07 Woodside Avenue, Woodside",
+        "phone": "(917) 670-5687",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 8,
+        "name": "AIDS Center of Queens County, Inc.",
+        "address": "Archer Avenue and 150th St, Jamaica",
+        "phone": "(917) 670-5687",
+        "hours": {
+            "Monday": [
+                11,
+                15
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                11,
+                15
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 9,
+        "name": "AIDS Center of Queens County, Inc.",
+        "address": "Beach 21st Street (South of Mott Ave), Far Rockaway",
+        "phone": "(917) 670-5687",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                11,
+                15
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 10,
+        "name": "Alliance for Positive Health",
+        "address": "120 Hoosick Street, Troy, NY",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                1630,
+                19
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 11,
+        "name": "Alliance for Positive Health",
+        "address": "155 Erie Boulevard, Schenectady",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                13,
+                16
+            ],
+            "Wednesday": [
+                13,
+                16
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 12,
+        "name": "Alliance for Positive Health",
+        "address": "160 Fairview Avenue, Hudson",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                10,
+                14
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                10,
+                14
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 13,
+        "name": "Alliance for Positive Health",
+        "address": "166 Champlain Ave, Ticonderoga",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                1630,
+                1830
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 14,
+        "name": "Alliance for Positive Health",
+        "address": "202 Cornelia St, Plattsburgh",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": [
+                13,
+                16
+            ],
+            "Tuesday": null,
+            "Wednesday": [
+                15,
+                18
+            ],
+            "Thursday": null,
+            "Friday": [
+                13,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 15,
+        "name": "Alliance for Positive Health",
+        "address": "6096 State Hwy 9n, Westport, NY",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": [
+                1630,
+                1830
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 16,
+        "name": "Alliance for Positive Health",
+        "address": "927 Broadway, Albany",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": [
+                1130,
+                15
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                1130,
+                15
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 17,
+        "name": "Alliance for Positive Health",
+        "address": "Glens Falls, NY",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                9,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                9,
+                16
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 18,
+        "name": "Alliance for Positive Health",
+        "address": "Saratoga, NY",
+        "phone": "(518) 563-2437",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 19,
+        "name": "Alliance Lower East Side Harm Reduction Center",
+        "address": "35 East Broadway (Between Market and Catherine Street), Manhattan",
+        "phone": "(212) 226-6333",
+        "hours": {
+            "Monday": [
+                9,
+                19
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": [
+                9,
+                17
+            ],
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 20,
+        "name": "Bellevue Hospital - Street Health Outreach and Wellness",
+        "address": "Lower East Side of Manhattan, on Forsyth and Delancey Streets",
+        "phone": "(347) 762-7632",
+        "hours": {
+            "Monday": [
+                930,
+                1630
+            ],
+            "Tuesday": [
+                930,
+                1630
+            ],
+            "Wednesday": [
+                930,
+                1630
+            ],
+            "Thursday": [
+                930,
+                1630
+            ],
+            "Friday": [
+                930,
+                1630
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 21,
+        "name": "BOOM!Health",
+        "address": "226 East 144th Street, Bronx",
+        "phone": "(718) 292-7718 x6474",
+        "hours": {
+            "Monday": [
+                8,
+                22
+            ],
+            "Tuesday": [
+                8,
+                22
+            ],
+            "Wednesday": [
+                8,
+                22
+            ],
+            "Thursday": [
+                8,
+                22
+            ],
+            "Friday": [
+                8,
+                22
+            ],
+            "Saturday": [
+                8,
+                15
+            ],
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 22,
+        "name": "BOOM!Health",
+        "address": "East 148th Street and Bergen Ave, Bronx",
+        "phone": "(718) 292-7718 x6474",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                9,
+                13
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                9,
+                11
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 23,
+        "name": "BOOM!Health",
+        "address": "East 149th St and St Ann's Ave, Bronx",
+        "phone": "(718) 292-7718 x6474",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                9,
+                13
+            ],
+            "Thursday": [
+                9,
+                13
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 24,
+        "name": "Bronx M\u00f3vil",
+        "address": "Please go to website for information and services",
+        "phone": "(917) 200-0358",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 25,
+        "name": "Catholic Charities Project Safe Point",
+        "address": "100 Slingerland Street, Albany NY",
+        "phone": "(518) 449-3581 x1301",
+        "hours": {
+            "Monday": [
+                830,
+                1630
+            ],
+            "Tuesday": [
+                830,
+                1630
+            ],
+            "Wednesday": [
+                830,
+                1630
+            ],
+            "Thursday": [
+                830,
+                1630
+            ],
+            "Friday": [
+                830,
+                1630
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "Office"
+    },
+    {
+        "id": 26,
+        "name": "Catholic Charities Project Safe Point",
+        "address": "100 Slingerland Street, Albany NY",
+        "phone": "(518) 449-3581 x1301",
+        "hours": {
+            "Monday": [
+                1,
+                2359
+            ],
+            "Tuesday": [
+                1,
+                2359
+            ],
+            "Wednesday": [
+                1,
+                2359
+            ],
+            "Thursday": [
+                1,
+                2359
+            ],
+            "Friday": [
+                1,
+                2359
+            ],
+            "Saturday": [
+                1,
+                2359
+            ],
+            "Sunday": [
+                1,
+                2359
+            ]
+        },
+        "note": "vending machine"
+    },
+    {
+        "id": 27,
+        "name": "Catholic Charities Project Safe Point",
+        "address": "2431 6th Ave (parking lot), Troy",
+        "phone": "(518) 449-3581 x1301",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                14,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 28,
+        "name": "Catholic Charities Project Safe Point",
+        "address": "839 Albany St, Schenectady",
+        "phone": "(518) 449-3581 x1301",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                14,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 29,
+        "name": "Community Action for Social Justice, Inc.",
+        "address": "Long Island: Nassau and Suffolk Counties",
+        "phone": "(866) 599-7260",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 30,
+        "name": "Community Health Action of Staten Island, Inc.",
+        "address": "166 Port Richmond Ave, Staten Island",
+        "phone": "(718) 808-1815",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 31,
+        "name": "Community Health Action of Staten Island, Inc.",
+        "address": "56 Bay St (First Floor), Staten Island",
+        "phone": "(718) 808-1815",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 32,
+        "name": "Community Health Action of Staten Island, Inc.",
+        "address": "Canal and Broad St, Staten Island",
+        "phone": "(718) 808-1815",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                1230,
+                15
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 33,
+        "name": "Cornerstone",
+        "address": "280 Broadway Street (parking lot behind the building, between Robinson and Concord Streets), Newburgh",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                10,
+                12 
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                10,
+                12
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 34,
+        "name": "Cornerstone",
+        "address": "72 Route 59 East, Spring Valley",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": [
+                10,
+                16
+            ],
+            "Tuesday": [
+                10,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                10,
+                16
+            ],
+            "Friday": [
+                10,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 35,
+        "name": "Cornerstone",
+        "address": "9 Monticello Street (parking lot of Federation for the Homeless), Monticello",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": [
+                1130,
+                1230
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 36,
+        "name": "Cornerstone",
+        "address": "Elmendorf St between Broadway and Tremper, Kingston",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                10,
+                12
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                10,
+                12
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 37,
+        "name": "Cornerstone",
+        "address": "Mill and North Hamilton (municipal parking lot), Poughkeepsie",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": [
+                1030,
+                1230
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                1030,
+                1230
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 38,
+        "name": "Cornerstone",
+        "address": "Sullivan County",
+        "phone": "(845) 522-5756",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                1130,
+                1230
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 39,
+        "name": "Dutchess County Department of Mental Health",
+        "address": "Dutchess County Department of Mental Health_ Empowerment Center - 230 North Road, Entrance 3, Poughkeepsie, NY",
+        "phone": "(845) 486-2885",
+        "hours": {
+            "Monday": [
+                1330,
+                16
+            ],
+            "Tuesday": null,
+            "Wednesday": [
+                1330,
+                16
+            ],
+            "Thursday": null,
+            "Friday": [
+                1330,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 40,
+        "name": "Evergreen Health Services, Inc.",
+        "address": "206 South Elmwood Avenue, Buffalo",
+        "phone": "(716) 847-2441",
+        "hours": {
+            "Monday": [
+                8,
+                17
+            ],
+            "Tuesday": [
+                8,
+                19
+            ],
+            "Wednesday": [
+                8,
+                17
+            ],
+            "Thursday": [
+                8,
+                17
+            ],
+            "Friday": [
+                8,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 41,
+        "name": "Evergreen Health Services, Inc.",
+        "address": "320 Prather Avenue, Jamestown",
+        "phone": "(716) 541-0678",
+        "hours": {
+            "Monday": [
+                10,
+                16
+            ],
+            "Tuesday": [
+                10,
+                16
+            ],
+            "Wednesday": [
+                10,
+                16
+            ],
+            "Thursday": [
+                10,
+                16
+            ],
+            "Friday": [
+                10,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 42,
+        "name": "Evergreen Health Services, Inc.",
+        "address": "Parking lot of Matt Urban Hope Center, 385 Paderewski Drive, Buffalo",
+        "phone": "(716) 847-2441",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                11,
+                14
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 43,
+        "name": "Evergreen Health Services, Inc.",
+        "address": "Parking lot of the First Step Crisis Center, 2470 Allen Avenue, Niagara Falls",
+        "phone": "(716) 847-2441",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                11,
+                13
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 44,
+        "name": "EXPONENTS, Inc",
+        "address": "Bedford Stuyvesant, Brooklyn",
+        "phone": "(212) 243-3434",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": "van"
+    },
+    {
+        "id": 45,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "1420 Bushwick Avenue, Brooklyn NY 11207",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": [
+                8,
+                16
+            ],
+            "Tuesday": [
+                8,
+                16
+            ],
+            "Wednesday": [
+                8,
+                16
+            ],
+            "Thursday": [
+                10,
+                18
+            ],
+            "Friday": [
+                8,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "multiservice center"
+    },
+    {
+        "id": 46,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "1721 Pitkin Avenue (East New York), Brooklyn",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": [
+                1,
+                2359
+            ],
+            "Tuesday": [
+                1,
+                2359 
+            ],
+            "Wednesday": [
+                1,
+                2359
+            ],
+            "Thursday": [
+                1,
+                2359
+            ],
+            "Friday": [
+                1,
+                2359
+            ],
+            "Saturday": [
+                1,
+                2359
+            ],
+            "Sunday": [
+                1,
+                2359
+            ]
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 47,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "192-16 Linden Blvd (St Albans), Brooklyn",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                12,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                16
+            ],
+            "Friday": [
+                12,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 48,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "Foch Blvd and Long Street, Northwest Corner, Queens",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                13,
+                16
+            ],
+            "Wednesday": [
+                13,
+                16
+            ],
+            "Thursday": [
+                13,
+                16
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 49,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "Linden Blvd and Fountain Ave (East New York), Brooklyn",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": [
+                13,
+                16
+            ],
+            "Tuesday": [
+                13,
+                16
+            ],
+            "Wednesday": [
+                13,
+                16
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 50,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "Livonia Ave and Williams St (NW Corner of Livonia) (East New York), Brooklyn",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": [
+                8,
+                12
+            ],
+            "Tuesday": [
+                8,
+                12
+            ],
+            "Wednesday": [
+                8,
+                12
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 51,
+        "name": "Family Services Network of New York, Inc.",
+        "address": "Sutphin Blvd and South Rd, Jamaica NY",
+        "phone": "(718) 455-8396 / (718) 573-3358",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                8,
+                13
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 52,
+        "name": "Harlem United Community AIDS Center, Inc.",
+        "address": "290 Lenox Ave, Manhattan",
+        "phone": "(212) 289-2378 x1241",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                930,
+                1500
+            ],
+            "Wednesday": [
+                930,
+                1500
+            ],
+            "Thursday": null,
+            "Friday": [
+                930,
+                1500
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 53,
+        "name": "Harlem United Community AIDS Center, Inc.",
+        "address": "321 West 125th Street, 2nd Floor, New York NY",
+        "phone": "(212) 289-2378 x1241",
+        "hours": {
+            "Monday": [
+                930,
+                1500
+            ],
+            "Tuesday": [
+                930,
+                1500
+            ],
+            "Wednesday": [
+                930,
+                1500
+            ],
+            "Thursday": [
+                930,
+                1500
+            ],
+            "Friday": [
+                930,
+                1500
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "storefront"
+    },
+    {
+        "id": 54,
+        "name": "Harlem United Community AIDS Center, Inc.",
+        "address": "E Tremont and 3rd Ave (on the park side), Bronx",
+        "phone": "(212) 289-2378 x1241",
+        "hours": {
+            "Monday": [
+                10,
+                15
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                10,
+                15
+            ],
+            "Friday": [
+                10,
+                15
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 55,
+        "name": "Housing Works, Inc.",
+        "address": "62640 Pitkin Avenue, Brooklyn",
+        "phone": "(212) 966-0466 x4506",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 56,
+        "name": "Housing Works, Inc.",
+        "address": "Cylar House Health Center - 743-749 E. 9th St., Manhattan",
+        "phone": "(212) 966-0466 x4506",
+        "hours": {
+            "Monday": [
+                9,
+                18
+            ],
+            "Tuesday": [
+                9,
+                18
+            ],
+            "Wednesday": [
+                9,
+                18
+            ],
+            "Thursday": [
+                9,
+                18
+            ],
+            "Friday": [
+                9,
+                18
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 57,
+        "name": "MATTERS",
+        "address": "Buffalo NY",
+        "phone": "(716) 525-9442",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 58,
+        "name": "Mt Sinai REACH",
+        "address": "Mt Sinai REACH, Manhattan",
+        "phone": "(646) 951-1693",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 59,
+        "name": "New York Recovery Alliance, Inc",
+        "address": "Upper Falls - Rochester, NY",
+        "phone": "(585) 685-9733",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 60,
+        "name": "NEXT Distro",
+        "address": "NEXT Distro",
+        "phone": "(917) 525-3787",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 61,
+        "name": "NYC DOHMH Rapid Response",
+        "address": "NYCDOHMH Rapid Response",
+        "phone": "(917) 597-9052",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 62,
+        "name": "Onondaga County Health Department",
+        "address": "Onandaga Cty Health Department",
+        "phone": "(315) 435-3280",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 63,
+        "name": "OnPoint NYC, Inc.",
+        "address": "104 - 106 East 126th Street, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": [
+                730,
+                23
+            ],
+            "Tuesday": [
+                730,
+                23
+            ],
+            "Wednesday": [
+                730,
+                23
+            ],
+            "Thursday": [
+                730,
+                23
+            ],
+            "Friday": [
+                730,
+                23
+            ],
+            "Saturday": [
+                730,
+                23
+            ],
+            "Sunday": [
+                730,
+                23
+            ]
+        },
+        "note": "office"
+    },
+    {
+        "id": 64,
+        "name": "OnPoint NYC, Inc.",
+        "address": "109th St and Lexington, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                930,
+                1130
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 65,
+        "name": "OnPoint NYC, Inc.",
+        "address": "110th and Park Ave, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                10,
+                14
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                17,
+                19
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 66,
+        "name": "OnPoint NYC, Inc.",
+        "address": "148th St and Bergen, Bronx",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                10,
+                14
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 67,
+        "name": "OnPoint NYC, Inc.",
+        "address": "500 West 180th Street, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": [
+                730,
+                23
+            ],
+            "Tuesday": [
+                730,
+                23
+            ],
+            "Wednesday": [
+                730,
+                23
+            ],
+            "Thursday": [
+                730,
+                23
+            ],
+            "Friday": [
+                730,
+                23
+            ],
+            "Saturday": [
+                730,
+                23
+            ],
+            "Sunday": [
+                730,
+                23
+            ]
+        },
+        "note": null
+    },
+    {
+        "id": 68,
+        "name": "OnPoint NYC, Inc.",
+        "address": "East Tremont and Lafontaine Avenues, Bronx",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                16,
+                19
+            ],
+            "Wednesday": [
+                10,
+                14
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 69,
+        "name": "OnPoint NYC, Inc.",
+        "address": "From 135th Street to 155th Street Between Broadway and Fredrick Douglas Boulevard, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": [
+                21,
+                22
+            ],
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 70,
+        "name": "OnPoint NYC, Inc.",
+        "address": "From 167th Street to 181st Street Between Fort Washington Avenue and Amsterdam Avenue, Manhattan",
+        "phone": "(877) 886-9473 / (718) 842-6050",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": [
+                9,
+                12
+            ],
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 71,
+        "name": "Positive Health Project, Inc.",
+        "address": "301 West 37th Street 2nd Fl, Manhattan",
+        "phone": "(212) 465-8304 x4431 / (212) 465-8304 x4823",
+        "hours": {
+            "Monday": [
+                10,
+                20
+            ],
+            "Tuesday": [
+                10,
+                20
+            ],
+            "Wednesday": [
+                17,
+                19
+            ],
+            "Thursday": [
+                17,
+                19
+            ],
+            "Friday": [
+                10,
+                20
+            ],
+            "Saturday": [
+                10,
+                18
+            ],
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 72,
+        "name": "Safe Horizon, Inc. -- Streetwork Project",
+        "address": "209 W 125th St, Manhattan",
+        "phone": "(646) 602-6404",
+        "hours": {
+            "Monday": [
+                1015,
+                17
+            ],
+            "Tuesday": [
+                1015,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                1015,
+                17
+            ],
+            "Friday": [
+                1015,
+                17
+            ],
+            "Saturday": [
+                1015,
+                17
+            ],
+            "Sunday": [
+                1015,
+                17
+            ]
+        },
+        "note": null
+    },
+    {
+        "id": 73,
+        "name": "Safe Horizon, Inc. -- Streetwork Project",
+        "address": "Roving Team: Lower East Side, East Village, Union Square area (Manhattan)",
+        "phone": "(646) 602-6404",
+        "hours": {
+            "Monday": [
+                12,
+                17
+            ],
+            "Tuesday": [
+                12,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                17
+            ],
+            "Friday": [
+                12,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 74,
+        "name": "Safe Horizon, Inc. -- Streetwork Project",
+        "address": "33 Essex Street, Manhattan",
+        "phone": "(646) 602-6404",
+        "hours": {
+            "Monday": [
+                13,
+                17
+            ],
+            "Tuesday": [
+                13,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                13,
+                17
+            ],
+            "Friday": [
+                13,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": [
+                13,
+                17
+            ]
+        },
+        "note": null
+    },
+    {
+        "id": 75,
+        "name": "Southern Tier AIDS Program",
+        "address": "Inc.,Owego St./Rt. 215, Cortlandville",
+        "phone": "(607) 237-0497 x2021",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                13,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 76,
+        "name": "Southern Tier AIDS Program",
+        "address": "Inc.,277 Main St, Johnson City",
+        "phone": "(607) 237-0497 x2021",
+        "hours": {
+            "Monday": [
+                12,
+                17
+            ],
+            "Tuesday": [
+                12,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                17
+            ],
+            "Friday": [
+                12,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 77,
+        "name": "Southern Tier AIDS Program",
+        "address": "Inc.,314 W. State Street, Ithaca",
+        "phone": "(607) 237-0497 x2021",
+        "hours": {
+            "Monday": [
+                12,
+                17
+            ],
+            "Tuesday": [
+                12,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                17
+            ],
+            "Friday": [
+                12,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 78,
+        "name": "Southern Tier AIDS Program",
+        "address": "Inc.,33-39 Court Street, Norwich NY",
+        "phone": "(607) 237-0497 x2021",
+        "hours": {
+            "Monday": [
+                12,
+                17
+            ],
+            "Tuesday": [
+                12,
+                17
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                17
+            ],
+            "Friday": [
+                12,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 79,
+        "name": "Southern Tier AIDS Program",
+        "address": "Inc.,4386 US- Rt. 11, Homer",
+        "phone": "(607) 237-0497 x2021",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                13,
+                16
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 80,
+        "name": "St. Ann's Corner of Harm Reduction",
+        "address": "Inc.,139th St - St. Ann's Avenue, Bronx",
+        "phone": "(718) 585-5544 x1021",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                10,
+                14
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                1530,
+                1830
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 81,
+        "name": "St. Ann's Corner of Harm Reduction",
+        "address": "Inc.,148th St - Bergen Avenue, Bronx",
+        "phone": "(718) 585-5544 x1017",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                1130,
+                1430
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 82,
+        "name": "St. Ann's Corner of Harm Reduction",
+        "address": "Inc.,886 Westchester Ave (Ground floor), Bronx",
+        "phone": "(718) 585-5544 x1017",
+        "hours": {
+            "Monday": [
+                6,
+                2359
+            ],
+            "Tuesday": [
+                6,
+                2359
+            ],
+            "Wednesday": [
+                6,
+                2359
+            ],
+            "Thursday": [
+                6,
+                2359
+            ],
+            "Friday": [
+                6,
+                2359
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 83,
+        "name": "The After Hours Project, Inc.",
+        "address": "1204 Broadway (Bedford Stuyvesant), Brooklyn",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 84,
+        "name": "The After Hours Project, Inc.",
+        "address": "58th St & 4th Ave - Sunset Park",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                12,
+                14
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 85,
+        "name": "The After Hours Project, Inc.",
+        "address": "935 Broadway, Brooklyn",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "wellness center"
+    },
+    {
+        "id": 86,
+        "name": "The After Hours Project, Inc.",
+        "address": "Dumont Ave & Snediker Ave - Brownsville/East NY",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                9,
+                11
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                9,
+                11
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 87,
+        "name": "The After Hours Project, Inc.",
+        "address": "Kingsland Ave & Jackson St - Williamsburg Neighborhood",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": [
+                12,
+                14
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                12,
+                14
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 88,
+        "name": "The After Hours Project, Inc.",
+        "address": "Livonia Ave & Georgia Ave - Brownsville / East NY",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": null,
+            "Tuesday": [
+                12,
+                14
+            ],
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": [
+                12,
+                14
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 89,
+        "name": "The After Hours Project, Inc.",
+        "address": "S 3rd Street & Havemeyer Street - Williamsburg Neighborhood",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": [
+                9,
+                11
+            ],
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 90,
+        "name": "The After Hours Project, Inc.",
+        "address": "Smith St and W 9th Street - Carrol Gardens",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": [
+                9,
+                11
+            ],
+            "Thursday": null,
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 91,
+        "name": "The After Hours Project, Inc.",
+        "address": "Washington Ave & Fulton St - Bedford Stuyvesant",
+        "phone": "(718) 249-0755",
+        "hours": {
+            "Monday": null,
+            "Tuesday": null,
+            "Wednesday": null,
+            "Thursday": [
+                9,
+                11
+            ],
+            "Friday": null,
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "van"
+    },
+    {
+        "id": 92,
+        "name": "The REACH Project/REACH Medical",
+        "address": "1001 W. Seneca Street Ithaca NY",
+        "phone": "(607) 273-7000",
+        "hours": {
+            "Monday": [
+                9,
+                17
+            ],
+            "Tuesday": [
+                9,
+                17
+            ],
+            "Wednesday": [
+                9,
+                17
+            ],
+            "Thursday": [
+                9,
+                17
+            ],
+            "Friday": [
+                9,
+                17
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 93,
+        "name": "Trillium Health",
+        "address": "Inc.,39 Delevan Street, Rochester",
+        "phone": "(585) 210-4214",
+        "hours": {
+            "Monday": [
+                13,
+                16
+            ],
+            "Tuesday": [
+                9,
+                16
+            ],
+            "Wednesday": [
+                13,
+                16
+            ],
+            "Thursday": [
+                13,
+                18
+            ],
+            "Friday": [
+                13,
+                16
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": "office"
+    },
+    {
+        "id": 94,
+        "name": "Urban League of Westchester County Inc.",
+        "address": "4 Wilson Place, Mount Vernon",
+        "phone": "(914) 699-5857",
+        "hours": {
+            "Monday": [
+                9,
+                13
+            ],
+            "Tuesday": [
+                9,
+                13
+            ],
+            "Wednesday": null,
+            "Thursday": [
+                9,
+                13
+            ],
+            "Friday": [
+                13,
+                19
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 95,
+        "name": "VIP Community Services",
+        "address": "Inc.,Bronx",
+        "phone": "718-583-5150 ext. 8671",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": null
+    },
+    {
+        "id": 96,
+        "name": "VOCAL-NY (Voices of Community Activists & Leaders)",
+        "address": "300 Douglass St (between 3rd and 4th Aves), Brooklyn NY",
+        "phone": "(718) 802-9540 / (800) 762-3019",
+        "hours": {
+            "Monday": [
+                1030,
+                1730
+            ],
+            "Tuesday": [
+                1030,
+                1730
+            ],
+            "Wednesday": [
+                1030,
+                1730
+            ],
+            "Thursday": [
+                1030,
+                1730
+            ],
+            "Friday": [
+                1030,
+                1730
+            ],
+            "Saturday": null,
+            "Sunday": null
+        },
+        "note": null
+    },
+    {
+        "id": 97,
+        "name": "VOCAL-NY (Voices of Community Activists & Leaders)",
+        "address": "Coney Island/Brighton Beach, Brooklyn",
+        "phone": "(718) 802-9540 / (800) 762-3019",
+        "hours": {
+            "Monday": "Please call",
+            "Tuesday": "Please call",
+            "Wednesday": "Please call",
+            "Thursday": "Please call",
+            "Friday": "Please call",
+            "Saturday": "Please call",
+            "Sunday": "Please call"
+        },
+        "note": "van"
+    }
+]
