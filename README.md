@@ -4,7 +4,7 @@
 
 <span>This is a simple webpage with a Google Map that displays the locations of
 currently open harm reduction service providers in real time. Information on 
-providers comes from <a href"https://www.health.ny.gov/diseases/aids/consumers/prevention/needles_syringes/docs/sep_hours_sites.pdf"><span>health.ny.gov</span></a>.</span>
+providers comes from <a href="https://www.health.ny.gov/diseases/aids/consumers/prevention/needles_syringes/docs/sep_hours_sites.pdf"><span>health.ny.gov</span></a>.</span>
 
 <p>The goal of this page is to give addicts (just in the NY 
 area for now) easy access to safe paraphernalia, a practice that is proven to
