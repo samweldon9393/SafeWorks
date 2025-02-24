@@ -7,14 +7,96 @@
 
 <body>
   <gmp-map
-      center="37.4220656,-122.0840897"
+      id="map"
+      center="40.7128, -74.0060"
       zoom="10"
       map-id="DEMO_MAP_ID"
       style="height: 400px"
       ></gmp-map>
+  <script>
+
+
+    async function loadData() {
+      try {
+        const response = await fetch('./data/providers.json');
+        if (!response.ok) {
+          throw new Error('Failed to load JSON data');
+        }
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Error loading JSON:', error);
+      }
+    }
+
+    // Function to get the current day and time
+    function getCurrentDayAndTime() {
+      const now = new Date();
+      const day = now.toLocaleString('en-US', { weekday: 'long' }); // Get full day name (e.g., "Tuesday")
+      const hour = now.getHours(); // Get current hour in 24-hour format
+      return { day, hour };
+    }
+
+
+    // Example usage
+    function checkProviders(data) {
+      let providerList = [];
+      data.forEach(provider =>{
+        const { day, hour } = getCurrentDayAndTime();
+        let range = provider.hours[day];
+        if (Array.isArray(range)){
+          const [start, end] = range;
+          if (hour >= start && hour < end){
+            providerList.push(provider);
+          }
+        }
+      });
+      return providerList;
+    }
+
+    async function main() {
+      const data = await loadData();
+      const providers = checkProviders(data);
+      console.log(providers);
+      return providers;
+    }
+
+
+    async function initMap() {
+
+      const mapElement = document.getElementById('map');
+      const map = mapElement.innerMap;
+
+      const addresses = [];
+      providers = await main();
+      providers.forEach(provider => {
+        addresses.push(provider.address)
+      });
+
+    // Geocoder to convert addresses to coordinates
+    const geocoder = new google.maps.Geocoder();
+
+    // Loop through the addresses and add markers
+    addresses.forEach(address => {
+        geocoder.geocode({ address: address }, (results, status) => {
+            if (status === "OK") {
+                const location = results[0].geometry.location;
+                new google.maps.marker.AdvancedMarkerElement({
+                    map: map,
+                    position: location,
+                    title: address
+                });
+            } else {
+                console.error("Geocode was not successful for the following reason: " + status);
+            }
+        });
+    });
+}
+  </script>
   <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC82pnNMG_-MknRYrmzMeo4dNqx9UkV0OM&loading=async&libraries=maps&v=beta" defer>
-</script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC82pnNMG_-MknRYrmzMeo4dNqx9UkV0OM&loading=async&libraries=maps&v=beta&callback=initMap&libraries=marker" defer>
+  </script>
+
 </body>
 
 </html>

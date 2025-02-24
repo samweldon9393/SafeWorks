@@ -1,4 +1,4 @@
-const data =  require('./data/providers.json') //TODO will this work on browser?
+import  data from './data/providers.json' assert { type: 'json' }; //TODO will this work on browser?
 
 // Function to get the current day and time
 function getCurrentDayAndTime() {
@@ -10,11 +10,11 @@ function getCurrentDayAndTime() {
 
 
 // Example usage
-function checkProviders() {
-    providerList = [];
+export function checkProviders() {
+    let providerList = [];
     data.forEach(provider =>{
         const { day, hour } = getCurrentDayAndTime();
-        range = provider.hours[day];
+        let range = provider.hours[day];
         if (Array.isArray(range)){
             const [start, end] = range;
             if (hour >= start && hour < end){
@@ -24,5 +24,5 @@ function checkProviders() {
     });
     return providerList;
 }
-p = checkProviders(); 
+const p = checkProviders(); 
 console.log(p);
