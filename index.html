@@ -16,6 +16,7 @@
   <script>
 
 
+    // Load json data
     async function loadData() {
       try {
         const response = await fetch('./data/providers.json');
@@ -38,7 +39,7 @@
     }
 
 
-    // Example usage
+    // Find the providers that are open right now 
     function checkProviders(data) {
       let providerList = [];
       data.forEach(provider =>{
@@ -54,6 +55,7 @@
       return providerList;
     }
 
+    // Get and return an array of open providers (json objects)
     async function main() {
       const data = await loadData();
       const providers = checkProviders(data);
@@ -61,31 +63,41 @@
       return providers;
     }
 
-
+    // Populate embedded map with locations of providers
     async function initMap() {
 
       const mapElement = document.getElementById('map');
       const map = mapElement.innerMap;
 
-      const addresses = [];
       providers = await main();
-      providers.forEach(provider => {
-        addresses.push(provider.address)
-      });
 
     // Geocoder to convert addresses to coordinates
     const geocoder = new google.maps.Geocoder();
 
     // Loop through the addresses and add markers
-    addresses.forEach(address => {
-        geocoder.geocode({ address: address }, (results, status) => {
+    providers.forEach(provider => {
+        geocoder.geocode({ address: provider.address }, (results, status) => {
             if (status === "OK") {
                 const location = results[0].geometry.location;
-                new google.maps.marker.AdvancedMarkerElement({
+                const marker = new google.maps.marker.AdvancedMarkerElement({
                     map: map,
                     position: location,
-                    title: address
+                    title: provider.name,
                 });
+
+              const infoWindow = new google.maps.InfoWindow({
+                content: `
+                <div>
+                <h3>${provider.name}</h3>
+                <p>Phone: ${provider.phone}</p>
+                <p>Address: ${provider.address}</p>
+                <p>Note: ${provider.note}</p>
+                </div>
+                `,
+              });
+              marker.addListener('click', () => {
+                infoWindow.open(map, marker);
+              });
             } else {
                 console.error("Geocode was not successful for the following reason: " + status);
             }
