@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Safe Works NYC</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Use Safely">
+    <title>Safe Works NYC</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+  <h1>Harm Reduction Services Open Now</h1>
+  <a href="https://oasas.ny.gov/"><h3>Help is available if you're ready</h3></a>
+  <p>If not, please stay safe and prevent the spread of HIV and Hep C by using clean works. This map shows harm reduction providers open right now. Please call ahead.</p>
   <gmp-map
       id="map"
       center="40.7128, -74.0060"
@@ -70,6 +79,7 @@
       const map = mapElement.innerMap;
 
       providers = await main();
+      const {day, hour} = getCurrentDayAndTime();
 
     // Geocoder to convert addresses to coordinates
     const geocoder = new google.maps.Geocoder();
@@ -85,13 +95,17 @@
                     title: provider.name,
                 });
 
+              const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${location.lat()},${location.lng()}`;
               const infoWindow = new google.maps.InfoWindow({
                 content: `
                 <div>
                 <h3>${provider.name}</h3>
-                <p>Phone: ${provider.phone}</p>
-                <p>Address: ${provider.address}</p>
-                <p>Note: ${provider.note}</p>
+                <p><strong>Hours:</strong> ${provider.hours[day][0] > 100 ? (provider.hours[day][0] / 100).toFixed(2) : provider.hours[day][0].toFixed(2)}
+                - ${provider.hours[day][1] > 100 ? (provider.hours[day][1] / 100).toFixed(2) : provider.hours[day][1].toFixed(2)}</p>
+                <a href="${directionsUrl}" target="_blank"><strong>Get Directions</strong></a>
+                <p><strong>Phone:</strong> ${provider.phone}</p>
+                <p><strong>Address:</strong> ${provider.address}</p>
+                <p><strong>Note:</strong> ${provider.note}</p>
                 </div>
                 `,
               });
