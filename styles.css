@@ -1,3 +1,56 @@
 body {
-  background-color: lightblue;
+  font-family: cambria;
+  background-image: url("nyc.jpg");
+  background-attachment: scroll;
+}
+
+h1 {
+  margin-top: 35px;
+  text-align: center;
+  text-shadow:  0 0 3px #8ab7ff;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  text-shadow:  0 0 1.5px #8ab7ff;
+}
+
+gmp-map {
+  margin-top: 20px;
+  width: 400px;
+  margin: auto;
+  flex-shrink: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 25px 300px 25px 300px;
+}
+
+div {
+  margin: auto;
+}
+
+.listt{
+  margin-top: 50px;
+  font-family: arial;
+  text-shadow:  0 0 1.5px #8ab7ff;
+  margin-bottom: 20px;
+}
+
+.section{
+  padding: 5px;
+  width: 350px;
+  text-align: left;
+  
+}
+
+.provName{
+  font-weight: bold;
 }
