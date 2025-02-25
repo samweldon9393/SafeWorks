@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <title>Safe Works NYC</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,95 +9,122 @@
     <meta name="description" content="Use Safely">
     <title>Safe Works NYC</title>
     <link rel="stylesheet" href="./styles.css">
-</head>
+  </head>
 
-<body>
-  <h1>Harm Reduction Services Open Now</h1>
-  <a href="https://oasas.ny.gov/"><h3>Help is available if you're ready</h3></a>
-  <p>If not, please stay safe and prevent the spread of HIV and Hep C by using clean works. This map shows harm reduction providers open right now. Please call ahead.</p>
-  <gmp-map
-      id="map"
-      center="40.7128, -74.0060"
-      zoom="10"
-      map-id="DEMO_MAP_ID"
-      style="height: 400px"
-      ></gmp-map>
-  <script>
+  <body>
+    <h1>Harm Reduction Services Open Now</h1>
+    <a href="https://oasas.ny.gov/"><h3>Help is available if you're ready</h3></a>
+    <p>If not, please stay safe and prevent the spread of HIV and Hep C by using clean works.</p>
+    <p>This map shows harm reduction providers open right now. Please call ahead.</p>
+    <div class="main">
+      <div class="listt" id="list">
 
-
-    // Load json data
-    async function loadData() {
-      try {
-        const response = await fetch('./data/providers.json');
-        if (!response.ok) {
-          throw new Error('Failed to load JSON data');
-        }
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error('Error loading JSON:', error);
-      }
-    }
-
-    // Function to get the current day and time
-    function getCurrentDayAndTime() {
-      const now = new Date();
-      const day = now.toLocaleString('en-US', { weekday: 'long' }); // Get full day name (e.g., "Tuesday")
-      const hour = now.getHours(); // Get current hour in 24-hour format
-      return { day, hour };
-    }
+      </div>
+      <gmp-map
+          id="map"
+          center="40.7128, -74.0060"
+          zoom="10"
+          map-id="DEMO_MAP_ID"
+          style="height: 400px"
+          ></gmp-map>
+      <script>
 
 
-    // Find the providers that are open right now 
-    function checkProviders(data) {
-      let providerList = [];
-      data.forEach(provider =>{
-        const { day, hour } = getCurrentDayAndTime();
-        let range = provider.hours[day];
-        if (Array.isArray(range)){
-          const [start, end] = range;
-          if (hour >= start && hour < end){
-            providerList.push(provider);
+        // Load json data
+        async function loadData() {
+          try {
+            const response = await fetch('./data/providers.json');
+            if (!response.ok) {
+              throw new Error('Failed to load JSON data');
+            }
+            const data = await response.json();
+            return data;
+          } catch (error) {
+            console.error('Error loading JSON:', error);
           }
         }
-      });
-      return providerList;
-    }
 
-    // Get and return an array of open providers (json objects)
-    async function main() {
-      const data = await loadData();
-      const providers = checkProviders(data);
-      console.log(providers);
-      return providers;
-    }
+        // Function to get the current day and time
+        function getCurrentDayAndTime() {
+          const now = new Date();
+          const day = now.toLocaleString('en-US', { weekday: 'long' }); // Get full day name (e.g., "Tuesday")
+          const hour = now.getHours(); // Get current hour in 24-hour format
+          return { day, hour };
+        }
 
-    // Populate embedded map with locations of providers
-    async function initMap() {
 
-      const mapElement = document.getElementById('map');
-      const map = mapElement.innerMap;
+        // Find the providers that are open right now 
+        function checkProviders(data) {
+          let providerList = [];
+          data.forEach(provider =>{
+            const { day, hour } = getCurrentDayAndTime();
+            let range = provider.hours[day];
+            if (Array.isArray(range)){
+              const [start, end] = range;
+              if (hour >= start && hour < end){
+                providerList.push(provider);
+              }
+            }
+          });
+          return providerList;
+        }
 
-      providers = await main();
-      const {day, hour} = getCurrentDayAndTime();
+        // Get and return an array of open providers (json objects)
+        async function main() {
+          const data = await loadData();
+          const providers = checkProviders(data);
+          console.log(providers);
+          makeList(providers);
+          return providers;
+        }
 
-    // Geocoder to convert addresses to coordinates
-    const geocoder = new google.maps.Geocoder();
+        // Dynamically add a list of open providers next to the map
+        function makeList(providers){
+          const list = document.getElementById('list');
+          providers.forEach(provider => {
 
-    // Loop through the addresses and add markers
-    providers.forEach(provider => {
-        geocoder.geocode({ address: provider.address }, (results, status) => {
-            if (status === "OK") {
+            const section = document.createElement('div');
+            const provNameDiv = document.createElement('div');
+            const provName = document.createTextNode(provider.name);
+            provNameDiv.appendChild(provName);
+            provNameDiv.classList.add('provName');
+            const provAddrDiv = document.createElement('div');
+            const provAddr = document.createTextNode(provider.address);
+            provAddrDiv.classList.add('provAddr');
+            provAddrDiv.appendChild(provAddr);
+            section.appendChild(provNameDiv);
+            section.appendChild(provAddrDiv);
+            section.classList.add('section');
+            list.appendChild(section);
+          });
+        }
+
+        // Populate embedded map with locations of providers
+        async function initMap() {
+
+          const mapElement = document.getElementById('map');
+          const map = mapElement.innerMap;
+
+          providers = await main();
+          const {day, hour} = getCurrentDayAndTime();
+
+          // Geocoder to convert addresses to coordinates
+          const geocoder = new google.maps.Geocoder();
+
+          // Loop through the addresses and add markers
+          providers.forEach(provider => {
+            geocoder.geocode({ address: provider.address }, (results, status) => {
+              if (status === "OK") {
                 const location = results[0].geometry.location;
                 const marker = new google.maps.marker.AdvancedMarkerElement({
-                    map: map,
-                    position: location,
-                    title: provider.name,
+                  map: map,
+                  position: location,
+                  title: provider.name,
                 });
 
-              const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${location.lat()},${location.lng()}`;
-              const infoWindow = new google.maps.InfoWindow({
-                content: `
+                const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${location.lat()},${location.lng()}`;
+                const infoWindow = new google.maps.InfoWindow({
+                  content: `
                 <div>
                 <h3>${provider.name}</h3>
                 <p><strong>Hours:</strong> ${provider.hours[day][0] > 100 ? (provider.hours[day][0] / 100).toFixed(2) : provider.hours[day][0].toFixed(2)}
@@ -108,20 +135,21 @@
                 <p><strong>Note:</strong> ${provider.note}</p>
                 </div>
                 `,
-              });
-              marker.addListener('click', () => {
-                infoWindow.open(map, marker);
-              });
-            } else {
+                });
+                marker.addListener('click', () => {
+                  infoWindow.open(map, marker);
+                });
+              } else {
                 console.error("Geocode was not successful for the following reason: " + status);
-            }
-        });
-    });
-}
-  </script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC82pnNMG_-MknRYrmzMeo4dNqx9UkV0OM&loading=async&libraries=maps&v=beta&callback=initMap&libraries=marker" defer>
-  </script>
+              }
+            });
+          });
+        }
+      </script>
+      <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC82pnNMG_-MknRYrmzMeo4dNqx9UkV0OM&loading=async&libraries=maps&v=beta&callback=initMap&libraries=marker" defer>
+      </script>
+    </div>
 
 </body>
 
