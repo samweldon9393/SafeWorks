@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   padding: 20px;
   background: linear-gradient(to bottom, #f8f1ea, #e3e6f0); /* Light peach to pale blue */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./bg.jpeg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./bg.png');
   background-size: cover;
   color: #333; /* Ensures text is readable */
 }
