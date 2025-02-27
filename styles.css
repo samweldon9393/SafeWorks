@@ -13,6 +13,7 @@ body {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./bg.png');
   background-size: cover;
   color: #333; /* Ensures text is readable */
+  text-shadow:  0 0 3px #ffffff;
 }
 
 .background-pattern {
@@ -56,6 +57,7 @@ p {
   color: #555;
   margin-bottom: 20px;
   text-align: center;
+  text-shadow:  0 0 3px #ffffff;
 }
 
 /* Main Container */
